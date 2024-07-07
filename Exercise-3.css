@@ -1,0 +1,288 @@
+html {
+    font-size: 62.5%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.7rem;
+    
+}
+
+
+nav>img {
+    width: 17rem;
+    height: 5.7rem;
+}
+
+
+.lang {
+    width: 2.9rem;
+    height: 2.7rem;
+}
+
+ul {
+    display: flex;
+
+}
+
+
+ul li {
+    list-style: none;
+    padding-right: 1.4rem;
+    font-size: 1.7rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.679);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+
+ul li a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.905);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.2rem;
+    gap: 3rem;
+}
+
+.title h1 {
+    font-family: sans-serif;
+    font-weight: 190;
+    font-size: 4.3rem;
+}
+
+.G2 {
+    width: 14.8rem;
+    height: 7.5rem;
+   
+    position: relative;
+    top: 1rem;
+    border-radius: 1.3rem;
+}
+
+.subtitle {
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.subtitle p {
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.main_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.main_btn button {
+    background-color: rgb(76, 183, 216);
+    font-family: sans-serif;
+    border-radius: .7rem;
+    border: transparent;
+    padding: 1.5rem;
+
+}
+
+.main_btn button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.main_btn button:hover{
+    background-color: rgb(43, 143, 173);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 2rem;
+}
+
+.logo h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.8rem;
+    font-weight: lighter;
+    
+}
+
+.ue {
+    width: 7rem;
+
+}
+
+.copyright {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    
+}
+
+.course {
+    display: grid;
+    grid-template-columns: 30rem 30rem 30rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.tutorial {
+    width: 30rem;
+    height: 15rem;
+    background-color: rgba(232, 229, 229, 0.258);
+    border-radius: 1rem;
+
+}
+
+.tutorial h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.tutorial h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.eng_btn {
+    background-color: rgb(80, 185, 80);
+    border-radius: .7rem;
+    padding: 1rem;
+    border: none;
+
+}
+
+.eng_btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.eng_btn:hover {
+    background-color: rgb(51, 155, 51);
+}
+ @media screen and (max-width:576px) {
+
+    html{
+font-size: 30%;
+    }
+    
+    .course {
+        display: grid;
+        grid-template-columns: 48rem ;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .tutorial {
+        width: 48rem;
+        height: 20rem;
+        background-color: rgba(232, 229, 229, 0.258);
+        border-radius: 1rem;
+    
+    }
+    .subtitle p {
+        font-family: sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    ul li {
+        list-style: none;
+        padding-right: 1.4rem;
+        font-size: 3rem;
+    }
+
+    nav>img {
+        width: 19rem;
+        height: 7rem;
+    }
+
+   
+    .ue {
+        width: 5.9rem;
+    
+    }
+ }
+ @media  screen and (min-width:577px) and (max-width:768px) {
+    html{
+        font-size: 39%;
+    }
+
+    .course {
+        display: grid;
+        grid-template-columns: 35rem 35rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .tutorial {
+        width: 35rem;
+        height: 20rem;
+        background-color: rgba(232, 229, 229, 0.258);
+        border-radius: 1rem;
+    
+    }
+    ul li {
+        list-style: none;
+        padding-right: 1.4rem;
+        font-size: 2.8rem;
+    }
+ }
+
+ @media screen and (min-width:769px) and (max-width:992px){
+     html{
+        font-size: 50%;
+     }
+     .course {
+        display: grid;
+        grid-template-columns: 35rem 35rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .tutorial {
+        width: 35rem;
+        height: 17rem;
+        background-color: rgba(232, 229, 229, 0.258);
+        border-radius: 1rem;
+    
+    }
+    ul li {
+        list-style: none;
+        padding-right: 1.4rem;
+        font-size: 2.4rem;
+    }
+ }
+
+ @media screen and (min-width:1441px) {
+    html{
+       font-size:  72%;
+    }
+ }
